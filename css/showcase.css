@@ -109,6 +109,14 @@ section{
       
   }
 
+
+  .errorLabel{
+      font-size: 50px;
+      width: 999px;
+      padding-left: 70px;
+      position: relative;
+      bottom: 45px;
+  }
   
   
 
