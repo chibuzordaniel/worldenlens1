@@ -39,6 +39,9 @@ section{
     height: 53px;
     color: #ffff;
     margin-left: -135px;
+    cursor: pointer;
+    border: none;
+    outline: none;
  }
 
 
@@ -63,7 +66,8 @@ section{
     font-weight: 900;
     color: red;
     position: relative;
-    bottom: -15px
+    left: 5px;
+    bottom: 0px
     
     
     
