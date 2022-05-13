@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <title>Worldlens</title>
+    
+</head>
+<body>
+    <audio id="sound"></audio>
+    <div class="navbar-background">
+        <div class="container">
+            <div class="navbar">
+                <div class="nav-log ">
+                    <h1  class=" log-line">Wordlens</h1>
+                    <div class="navbar-darkmoon">
+                        <!-- <img src="./svg/darkmoon.svg" id="toggleDark"> -->
+                        <i id="check" class="fa-solid fa-sun" ></i>
+                    </div>
+               
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+
+        <!-- showcase  -->
+
+        
+             <!-- <div class="container">
+                 <div class="showcase-name">
+                    <h1> Search <br> for any word.</h1>
+                 </div> -->
+                 <!-- <img src="./svg/search.svg" alt=""> -->
+              <!-- <i class="fa fa-volume-up placeholder" aria-hidden="true"></i> -->
+
+         <!-- </div> -->
+    </section> 
+    <section>
+        <div class="container">
+            <div id="app">
+                <h2 class="title" > Search <br> for any word.</h2>
+                <form id="form" >
+                    <div class="searchBox">
+                        <input type="text" name="" placeholder=" What would you like to search for?" id="wordput">
+                         <button>search</button>
+                         
+                    </div>
+                    <img src="./svg/search.svg" alt="">
+                    <p class="errorLabel" id="erroLabel">please type a word</p>
+    
+                </form>
+               
+                <div id="data" >
+                  
+
+                   <!-- <div class="error" id="error">
+                      <p class="erro1"> Oops, Sorry pal, we couldn't find definitions  </p>
+                      <p class="erro1">for the word you were looking for.</p>
+                      <p class="erro2">404</p>
+                      <p class="erro3" >no be juju be that</p>
+                      <button class="erro4"> <a href="index.html">Take me home</a> </button>
+                  </div>   -->
+                  <div class="datails">
+                     
+                      <h3 class="meaning slip mapping">Hello</h3>
+                      <h1 class="meaning2 slip phonetictext"> /həˈləʊ/  </h1>
+                      <!-- <span class="span-b">origin: "early 19th century: variant of earlier hollo ; related to holla.",  </span> -->
+                  </div> 
+                  
+                  <audio id="audio"></audio>
+                  <button  id="audiobtn" class="audiobtn" onclick="playAudio()"><i class="fa fa-volume-up " aria-hidden="true"></i></button>
+
+                  <div class="content  " >  
+                      <ul>
+                            <li class="gaps"> 1. (exclamation)  used as a greeting or to begin a phone conversation.  </li>
+                            <h4> sentence: “hello there, Katie!"  </h4>
+                            <p> Synonyms: “”   </p>
+                            <li class="gaps">2. (noun) an utterance of ‘hello’; a greeting.  </li>
+                            <h4> sentence: “she was getting polite nods and hellos from people"  </h4>
+                            <li class="gaps"> 3. (verb) say or shout ‘hello’.  </li>
+                            <h4 class="loopss"> sentence: “I pressed the phone button and helloed"  </h4>
+                        
+                      </ul>
+                     
+                  </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+     <div class="footer-background">
+         <div class="container">
+            <div class="footer-container">
+                <div class="footer-cont">
+                    <div class="footer-img">
+                      <div class="img">
+                          <img src="./svg/footerimg1.svg" alt="">
+                      </div>
+                      <div class="img">
+                        <img src="./svg/footerimg2.svg" alt="">
+                    </div>
+                    </div>
+  
+                    <div class="footer-word">
+                        <h1>Worldlens</h1>
+                        <p class="footer-api"> The API used to serve this data was provided by </p>
+                         <p>  dictionaryapi.dev, click on the link below to read more </p>  
+                         <button class="">Visit API documentation  </button>
+                    </div>
+
+                    <div class="footer-img2">
+                        <div class="img2">
+                            <img src="./svg/footerimg3.svg" alt="">
+                        </div>
+                        <div class="img2">
+                          <img src="./svg/footerimg1.svg" alt="">
+                      </div>
+                    </div>
+
+                    <div class="footer-flex-1">
+                        <div class="footer">
+                            <h1> Wordlens  </h1>
+                        </div>
+                        <div class="footer">
+                            <img src="./svg/footerimg4.svg" alt="">
+                        </div>
+                        <div class="footer">
+                            <p> Terms of use. Privacy Policy  </p>
+                        </div>
+                    </div>
+
+
+                    <div class="footer-foot">
+                        <h3> Copyright © 2022 Wordlens. All rights reserved.  </h3>
+                    </div>
+                  
+                </div>
+           </div>
+         </div>
+
+
+
+
+
+    </footer>
+         
+          
+
+</body>
+<script src="./js/index.js"></script>
+</html>

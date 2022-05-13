@@ -1,0 +1,55 @@
+@import 'navbar.css';
+@import 'showcase.css';
+@import 'card.css';
+@import 'card2.css';
+@import 'footer.css';
+
+
+
+
+
+:root{
+    --primary-color: #ffffff;
+    --secondary-color: #000000;
+    --background-color: #8C98AD;
+    --senior-color: #FCFCFC;
+    --number-color: #E9ECF0;
+    --main-color:   #FCFCFC;
+    --boder-dark--color:  #E9ECF0; 
+    --shadow-blue--color: #000000;
+    --footer-dark--color:#E5E5E5;
+}
+
+
+
+.darkmode{
+
+    --primary-color: #0D1726;
+    --secondary-color: #000000;
+    --background-color: #8C98AD;
+    --senior-color: #FCFCFC;
+    --number-color: #E9ECF0;
+    --main-color: #1c2027;
+    --shadow-blue--color: #91A2CB;
+    --boder-dark--color: #122239; 
+    --footer-dark--color:#0D1726;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    overflow-x: hidden;
+    background: var(--primary-color);
+    /* transition: ease-in-out 0.7s ; */
+  
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
