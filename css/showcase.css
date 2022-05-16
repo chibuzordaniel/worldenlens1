@@ -89,7 +89,9 @@ section{
     position: relative;
     bottom: 22px;
     color: var(--background-color);
-    margin-left: 109px; 
+    margin-left: 90px;
+    font-size: 16px;
+
 }
 
 
@@ -191,7 +193,7 @@ section{
 
 @media screen and (max-width: 320px){
    
-    
+
 
 
 

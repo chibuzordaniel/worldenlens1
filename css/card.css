@@ -42,7 +42,7 @@ text-transform: capitalize;
 }
 
 .meaning2{
-   width: 150px;
+   width: 550px;
    margin-top: 10px;
    font-size: 23px;
    color: var(--background-color);
@@ -59,7 +59,13 @@ text-transform: capitalize;
   color: var(--shadow-blue--color);
 }
 
-
+.btn7 > button{
+   background: none;
+   border: none;
+   outline: none;
+   
+   
+}
 
 
 .content li{
@@ -81,12 +87,13 @@ text-transform: capitalize;
    font-size: 16px;
 }
 
-.content h3 {
+.content p {
    /* padding-top: 20px; */
    font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 990;
 font-size: 16px;
+margin-top: 10px;
 /* line-height: 19px; */
 color: var(--shadow-blue--color);
 }
