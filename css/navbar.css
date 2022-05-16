@@ -73,8 +73,8 @@ section{
 
 }
 
-/* 
-/* @media screen and (max-width: 500px){
+
+ /* @media screen and (max-width: 500px){
     .navbar-background{
         width: 100%;
         height: 250px;
@@ -103,59 +103,33 @@ section{
        height: 120px;
    }
 
-}
+} */
 
 
 @media screen and (max-width: 320px){
 
-    .nav-log h1{
-        padding-top: 50px;
-        font-size: 99px;
-        margin-left: 50px;
-      
+  .nav-log > h1{
+      margin-left: 130px;
+      font-size: 60px;
+  }
+
+  .navbar-darkmoon> i {
+      position: relative;
+      right: 90px;
+  }
+
+
+   .title4 > h2{
+       font-size: 150px;
+       position: relative;
+       bottom: 60px;
    }
-    .showcase-name h1{
-        margin-left: -110px;
-    }
 
-    .navbar-darkmoon i{
-        /* position: absolute;
-        left: 220px; */
-        /* margin-left: -150px;
-    } 
+  
 
-    .nav-log img{
-        width: 100px;
-        height: 120px;
-        margin-left: -150px;
-    }
 
-    .showcase-input{
-        margin-left: -90px;
-    }
 
-    .card{
-        margin-left: -50px;
-    }
-
-    .footer-wordlens{
-      margin-left: -150px;
-    }
-
-    .footer-button {
-        position: relative;
-        right: 120px;
-    }
+   
 
     
-    .footerc-flex img{
-      position: relative;
-      left: -100px;
-    }
-
-    .footer-copyRight{
-        position: relative;
-        right: 120px;
-    }
-
 }  

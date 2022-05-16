@@ -343,3 +343,34 @@
 
 
 }
+
+
+@media screen and (max-width: 320px){
+    .footer-word  > p{
+       margin-left: -90px;
+       width: 940px;
+       margin-top: -50px;
+    }
+
+
+    .footer-word > button{
+        margin-left: -380px;
+    }
+
+    .footer > h1 {
+        margin-top: -70px;
+       margin-left: 130px;
+    }
+
+    .footer img{
+        margin-left: -380px;
+        margin-top: 90px;
+    }
+
+
+    .footer-foot{
+        margin-left: -400px;
+    }
+
+
+}

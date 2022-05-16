@@ -187,3 +187,24 @@ section{
 
 
 }
+
+
+@media screen and (max-width: 320px){
+   
+    
+
+
+
+    .searchBox > input{
+        width: 930px;
+        margin-left: 50px;
+    }
+
+
+   .searchBox > button{
+       max-width: 925px;
+      position: relative;
+      right: 15px;
+   }
+
+}
