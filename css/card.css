@@ -13,7 +13,8 @@
 .content{
    margin-top: 40px;
    background: var( --main-color); 
-   padding:  40px  0;
+   padding-top:  10px;
+   padding-bottom: 50px;
    width: 85%;
    height: 100%;
    padding-left: 40px;
@@ -59,7 +60,7 @@ text-transform: capitalize;
   color: var(--shadow-blue--color);
 }
 
-.btn7 > button{
+.datails > button{
    background: none;
    border: none;
    outline: none;

@@ -85,17 +85,21 @@ section{
 
 
 
-.audiobtn{
-    position: relative;
-    bottom: 22px;
+.btn4> button{
     color: var(--background-color);
-    margin-left: 90px;
+    display: flex;
     font-size: 16px;
-
+    border: none;
+    background: none;
+    margin-top: 6px;
 }
 
 
-
+.flex-box2{
+    display: flex;
+    gap: 10px;
+  
+}
 
 
 @media screen  and (max-width: 768px){
