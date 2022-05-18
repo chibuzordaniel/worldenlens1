@@ -91,7 +91,8 @@ section{
     font-size: 16px;
     border: none;
     background: none;
-    margin-top: 6px;
+    outline: none;
+    margin-top: 17px;
 }
 
 
@@ -160,6 +161,8 @@ section{
    .word p{
        font-size: 110px;
    }
+
+ 
 
    
  

@@ -43,17 +43,26 @@ text-transform: capitalize;
 }
 
 .meaning2{
-   width: 550px;
+   font-family: 'Inter', sans-serif;
    margin-top: 10px;
+   font-weight: 600;
    font-size: 23px;
+   line-height: 29px;
+   font-style: normal;
    color: var(--background-color);
 }
 
 
+.flex-box5 > span{
+   /* font-family: 'Inter', sans-serif;
+  
+   
+   font-size: 24px; */
+  
+}
 
 
-
-.details h2{
+.details > span{
   width: 200px;
   font-weight: 600; 
   font-size: 25px; 
@@ -185,6 +194,10 @@ font-size: 16px;
     margin-top: -60px;
     height: 100%;
    }
+
+   .content > ul{
+      padding-top: 120px;
+   }
    
 
    .span-b{
@@ -200,14 +213,14 @@ font-size: 16px;
    }
 
 
-   .content p{
+   .content  p{
       font-size: 65px;
       margin-top: 20px;
       width: 1200px;
    }
 
 
-   .content h4{
+   .content  h4{
       font-size: 45px;
       margin-top: 40px;
       width: 1200px;
@@ -215,21 +228,21 @@ font-size: 16px;
       
    }
 
+   
+
    .meaning {
       font-size: 126px;
    }
 
    .meaning2{
       font-size: 70px;
-      width: 900px;
+      width: 280px;
+      margin-top: 20px;
    } 
 
-   .audiobtn {
-    font-size:46px ;
-    margin-left: 350px;
-    position: relative;
-    bottom: 59px;
-  
+
+   .btn4 > button{
+      font-size: 46px;
    }
 
  
