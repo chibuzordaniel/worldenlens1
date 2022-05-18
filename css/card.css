@@ -49,6 +49,7 @@ text-transform: capitalize;
    font-size: 23px;
    line-height: 29px;
    font-style: normal;
+   width: 100%;
    color: var(--background-color);
 }
 
@@ -95,6 +96,7 @@ text-transform: capitalize;
    color: #8C98AD;
    font-style: italic;
    font-size: 16px;
+   margin-top: -10px;
 }
 
 .content p {
@@ -191,7 +193,7 @@ font-size: 16px;
     
   .content{
     background: none;
-    margin-top: -60px;
+    /* margin-top: 0px; */
     height: 100%;
    }
 
@@ -235,14 +237,19 @@ font-size: 16px;
    }
 
    .meaning2{
-      font-size: 70px;
-      width: 280px;
-      margin-top: 20px;
-   } 
+      font-size: 90px;
+      margin-top: 32px;
+      
+   }
+   
+  
+   
 
 
    .btn4 > button{
-      font-size: 46px;
+      font-size: 60px;
+      margin-top: 20px;
+      
    }
 
  
