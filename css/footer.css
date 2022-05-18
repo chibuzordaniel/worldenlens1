@@ -347,29 +347,29 @@
 
 @media screen and (max-width: 320px){
     .footer-word  > p{
-       margin-left: -90px;
+       margin-left: 25px;
        width: 940px;
        margin-top: -50px;
     }
 
 
     .footer-word > button{
-        margin-left: -380px;
+        margin-left: -200px;
     }
 
     .footer > h1 {
-        margin-top: -70px;
-       margin-left: 130px;
+        margin-top: -20px;
+       margin-left: 250px;
     }
 
     .footer img{
-        margin-left: -380px;
-        margin-top: 90px;
+        margin-left: -200px;
+        margin-top: 50px;
     }
 
 
     .footer-foot{
-        margin-left: -400px;
+        margin-left: -200px;
     }
 
 
