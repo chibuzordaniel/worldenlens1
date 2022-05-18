@@ -374,3 +374,36 @@
 
 
 }
+
+
+@media screen and (max-width: 280px){
+
+    .footer-word  > p{
+        margin-left: -80px;
+        width: 940px;
+        margin-top: -50px;
+        
+     }
+
+ 
+     .footer-word > button{
+         margin-left: -390px;
+     }
+ 
+     .footer > h1 {
+         margin-top: -20px;
+        margin-left: 130px;
+     }
+ 
+     .footer img{
+         margin-left: -380px;
+         margin-top: 50px;
+     }
+ 
+ 
+     .footer-foot{
+         margin-left: -370px;
+     }
+ 
+
+}
