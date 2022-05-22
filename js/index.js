@@ -138,7 +138,7 @@ function othersHtml(definition, index){
   <ul>
      <li class="gaps">${index + 1}.  ${definition?.definition}</li>
      </ul> `
-
+      let definitionHtml = ''
       let exampleHtml = ''
       let synonymsHtml = ''
   

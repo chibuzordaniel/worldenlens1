@@ -40,6 +40,7 @@ font-family: 'Inter', sans-serif;
 font-size: 50px;
 color: var(--shadow-blue--color);
 text-transform: capitalize;
+
 }
 
 .meaning2{
@@ -51,6 +52,7 @@ text-transform: capitalize;
    font-style: normal;
    width: 100%;
    color: var(--background-color);
+   
 }
 
 
