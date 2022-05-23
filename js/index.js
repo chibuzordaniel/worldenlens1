@@ -121,7 +121,7 @@ function meaningHTML(meaning) {
     <ul>
           <p>${meaning.partOfSpeech}</p>
           <ul>${others}</ul>
-      </ul>
+     </ul>
     </div> `
    
     html = html.trim()
@@ -138,7 +138,6 @@ function othersHtml(definition, index){
   <ul>
      <li class="gaps">${index + 1}.  ${definition?.definition}</li>
      </ul> `
-      let definitionHtml = ''
       let exampleHtml = ''
       let synonymsHtml = ''
   
@@ -170,11 +169,11 @@ function othersHtml(definition, index){
 }
 
 
-//  function flatArray(arr) {
-//    return arr.reduce((pv,cv) => {
-//      return pv + ',' + cv
-//    })
-//  }
+ function flatArray(arr) {
+   return arr.reduce((pv,cv) => {
+     return pv + ',' + cv
+   })
+ }
 
 
   //   body darkmode
